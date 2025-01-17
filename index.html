@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        header .icon img {
+            width: 30px;
+            height: 30px;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .project-header img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .company-description {
+            text-align: left;
+            margin: 30px 0;
+            line-height: 1.6;
+        }
+
+        .company-description h1 {
+            margin: 0 0 20px;
+        }
+
+        .company-description p {
+            margin: 0 0 5px;
+        }
+        .company-description h3 {
+            margin: 0 0 5px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 30px 0;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px 0;
+            min-height: 10em; /* Fixed height for the entire project section */            
+        }
+
+        .project-image {
+            flex: 1;
+            padding: 10px;
+            max-width: 30em;
+        }
+
+        .project-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .project-description {
+            flex: 1;
+            padding: 15px;
+            line-height: 1.6;
+            max-height: 15em; /* Approximately 10 lines of text */            
+            overflow: hidden;
+            max-width: 20em; /* Approximately 10 lines of text */            
+        }
+
+        .project-description h2 {
+            margin: 0 0 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .project {
+                flex-direction: column;
+            }
+
+            .project-image,
+            .project-description {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Aminity Lab</div>
+        <div class="icon">
+            <img src="AminityLogo.png" alt="Company Icon">
+        </div>
+    </header>
+
+    <main>
+        <div class="project-header">
+            <img src="MainTitle.png" alt="Main Project Image">
+        </div>
+
+        <div class="company-description">
+            <h1>Aminity Lab</h1>            
+            <h3>Providing Joy, Convenience, and Growth Together.</h3>
+            <p>We create technology and services that coexist with users to enhance their lives.</p>
+        </div>
+
+        <hr>
+
+        <section class="project">
+            <div class="project-image">
+                <img src="LuckyBallThumbNail.png" alt="LuckyBallThumbNail Image">
+            </div>
+            <div class="project-description">
+                <h2>Lucky Ball</h2>
+                <p>Experience a unique blend of physics puzzles and lucky draws! Easy to start, yet deep with engaging fun. We create games
+                that deliver joy and growth through intuitive and convenient gameplay.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="project">
+            <div class="project-image">
+                <img src="CatchTheBusThumbNail.png" alt="CatchTheBusThumbNail Image">
+            </div>
+            <div class="project-description">
+                <h2>Chatch The Bus</h2>
+                <p>Unravel passenger chaos by dispatching the right buses and connecting the city. This game goes beyond puzzles to enhance
+                resource management and problem-solving skills. Our mission is to foster growth and positive experiences together.</p>
+            </div>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        Contact us: <a href="mailto:contact.aminity@gmail.com">contact.aminity@gmail.com</a>
+    </footer>
+
+</body>
+
+</html>
